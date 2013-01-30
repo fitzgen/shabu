@@ -1,0 +1,16 @@
+{
+  "author": "Nick Fitzgerald <fitzgen@gmail.com> (http://fitzgeraldnick.com)",
+  "name": "shabu",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "main": "shabu.js",
+  "volo": {
+    "dependencies": {
+      "q": "kriskowal/q",
+      "jquery": "jquery/jquery"
+    }
+  },
+  "amd": {}
+}

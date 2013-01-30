@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <style>
+      #todos {
+        margin: 0 auto;
+        padding: 1em;
+        width: 20em;
+        border: .25em solid #ddd;
+      }
+
+      #todos form {
+        margin: 0 0 .25em 0;
+        padding: 0 0 .25em 0;
+      }
+
+      #todos form input {
+        width: 19em;
+        margin: .25em;
+        padding: .25em;
+        font-size: 1em;
+        border: 1px solid #ddd;
+      }
+
+      #todos form input:focus {
+        border: 1px solid #aaf;
+      }
+
+      #todos ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      .todo {
+        list-style-type: none;
+        margin: 0;
+        padding: .25em 0 .25em 0;
+      }
+
+      .todo.completed {
+        text-decoration: line-through;
+        color: #aaa;
+      }
+
+      .remove-completed {
+        margin: .5em 0 0 0;
+        padding: 0;
+      }
+
+      .save {
+        font-size: .8em;
+        font-style: italic;
+        color: #aaa;
+        margin: .8em 0 0 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="todos">
+    </div>
+
+    <script data-main="./todos" src="require.js">
+    </script>
+
+  </body>
+
+</html>
