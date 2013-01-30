@@ -8,7 +8,6 @@
   "main": "shabu.js",
   "volo": {
     "dependencies": {
-      "q": "kriskowal/q",
       "jquery": "jquery/jquery"
     }
   },
